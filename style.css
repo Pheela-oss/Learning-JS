@@ -34,7 +34,7 @@ header {
     transform: translate(-50%, -50%);
     background: black;
     width: 95%;
-    height: 600px;
+    height: 1000px;
     max-height: 90vh;
     box-sizing: border-box;
     display: flex;
@@ -114,6 +114,7 @@ header div #Nickname, header div #Password {
   header div #Nickname, header div #Password {
     margin: 10px;
     margin-top: 0px;
+    height: 80px;
   }
 }
 header div #Nickname:hover, header div #Password:hover {
@@ -126,7 +127,8 @@ header div #Nickname:focus, header div #Password:focus {
 }
 @media (width < 1000px) {
   header div h3 {
-    margin-left: 20px;
+    text-align: center;
+    font-size: 50px;
   }
 }
 header div #Nickname {
@@ -182,6 +184,14 @@ header div button:focus {
   height: 120px;
   transform: scaleX(1);
   animation: obaoba 0.5s steps(1) infinite;
+}
+@media (width < 1000px) {
+  #kuromi {
+    top: 0;
+    left: 40%;
+    transform: translate(-50%);
+    height: 250px;
+  }
 }
 
 @keyframes obaoba {
