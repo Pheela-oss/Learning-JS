@@ -44,7 +44,7 @@ function loginPopUp(){
 
     setTimeout(function() {
         modal.style.top = "-150px"
-    }, 2500)
+    }, 1500)
 };
 
 deleteUser.addEventListener("click", function() {
