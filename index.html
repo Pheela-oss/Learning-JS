@@ -1,52 +1,161 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset = "UTF-8">
-        <title id="webTitle">Meu portfólio</title>
-		
-        <link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="fonts.css">
-        <link rel="icon" href="assets/content/media/Kuromi skull.png">
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aprendendo Array</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="icon" href="assets/content/media/Favicon.png">
+</head>
+<body>
 
-    </head>
-    
-    <body>
-        <img src="assets/content/media/background.jpg" alt="background" id="background">
-        <img src="assets/content/media/Kuromi_Laughing.gif" alt="kuromi" id="kuromi">
+    <header class="topPage">
+        <img src="assets/content/media/flying-kuromi.png" alt="Kuromi" id="top_kuromi">
+        <h1>Estudando <br><span>JavaScript</span> </h1>
+        <img src="assets/content/media/JavaScript-Logo.png" alt="JS logo" id="JSlogo">
 
-        <header>
-            <h1>WELCOME <br> BACK </h1>
-
-            <form>
-                <h3>Username</h3>
-                <input type="email" id="Nickname" placeholder="Nickname">
-                <h3>Password</h3>
-                <input type="password" id="Password" placeholder="Password">
-            </form>
-
-            <div class="loginAcess">  
-                    <button id="Entrar">Sign In</button>
-                    <button id="Cadastrar">Sign Up</button>
-            </div>
-
-            <img src="assets/content/media/Kuromi.jpeg">
-
-            <button id="excluirConta">Excluir conta</button>
-        </header>
-        <main>
-            <!--Aqui não tem nada!-->
-        </main>
-
-        <label class="loginErrorMessages">
-            <img src="assets/content/media/Bothered Kuromi.jpg" alt="emotion profile" id="emotion profile">
-            <h1 id="h1fromLEM">Hm... não achei seu perfil aqui</h1>
-        </label>
+        <div class="estagios">
+            <a href="#sessao1">Início</a>
+            <a href="#sessao2">Tabela de Estudos</a>
+            <a href="">*desenvolvendo</a>
+            <a href="#creditos" id="contatos">contatos</a>
+        </div>
+    </header>
 
 
+    <main>
+        <img src="assets/content/media/dark wallpaper kuromi.jpg" alt="skulls" id="backgroundInMain">
+        <section class="sessoes" id="sessao1">
+            <h1>O que é <span>JavaScript</span>?</h1>
+            <p>
+                <pr> JavaScript é um código de linguagem de ampla funcionalidade focada em desenvolvimento de jogos e websites, criada por Brendan Eich em 1995, logo padronizada em 96, pela empresa Ecma international. É uma linguagem que pode ser adotada tanto no front-end quanto no back-end.
 
-        <!----->
-        <script type="module" src="sketch.js"></script>
-    </body>
-     
+                <pr> Curiosamente, essa linguagem também é usada (mesmo que em grande parte, indiretamente) para construções de jogos, tais como <a href="https://pony.town/" class="gamesLinks">Pony Town</a>, <a href="https://www.supersmashflash.com/play/ssf2/" class="gamesLinks" >Super Smash Flash 2</a> ou até mesmo <a href="https://flash-games.io/" class="gamesLinks" >Jogos do Flash</a> nostalgicos de 2010~2018, que infelizmente foi descontinuado em 2020.
+            </p>
+
+            <h3>O que é Back-end e Front-end?</h3>
+            <p>
+                Front-end e Back-end são áreas que possuem posições diferentes para o desenvolvimento web, o Front-end por si só tem como foco a construção visual e estruturação lógica do site que aparece para o usuário. Já o back-end, tem como objetivo guardar e/ou manipular dados e informações do site cujo está hospedado.
+            </p>
+        </section>
+
+
+        <section class="sessoes" id="sessao2">
+            <h1>Aprenda JavaScript Já!</h1>
+            <img src="assets/content/media/Rock 'n Kuromi.jpg" id="kuromiGuitar" alt="kuromiGuitar">
+
+            <article id="AprendaArray" class="linksAprendizado">
+                <h3>
+                    <img src="assets/content/media/UI-UX/Down Left Arrow.svg">
+                    Aprenda <span>Array</span>
+                </h3>
+                <section>
+                    <p>Aqui você aprenderá a como criar, usar e manipular Arrays da maneira mais semântica possível!</p>
+
+                    <a href="https://www.youtube.com/watch?v=5nm7lPwNroU">Quero Aprender!</a>
+                </section>
+            </article>
+
+            <article id="AprendaAPIs" class="linksAprendizado">
+                <h3>
+                    <img src="assets/content/media/UI-UX/Down Left Arrow.svg">
+                    Aprenda <span>APIs</span>
+                </h3>
+                <section>
+                    <p>Aprenda a entender o que são APIs e como elas podem ser usadas sem que o CORS do Google impeça</p>
+
+                    <a href="">Quero Aprender!</a>
+                </section>
+            </article>
+
+            <article id="AprendaFetch" class="linksAprendizado">
+                <h3>
+                    <img src="assets/content/media/UI-UX/Down Left Arrow.svg">
+                    Aprenda <span>Fetch</span>
+                </h3>
+                <section>
+                    <p>Puxar documentos, ler arquivos .json são definitivamente conceitos importantes para se aprender para ser tornar um <span>Desenvolvedor</span>!</p>
+
+                    <a href="">Quero Aprender!</a>
+                </section>
+            </article>
+
+            <article id="AprendaLogin" class="linksAprendizado">
+                <h3>
+                    <img src="assets/content/media/UI-UX/Down Left Arrow.svg" alt="">Aprenda <span>Auth/</span>
+                </h3>
+                <section>
+                    <p>Não quer que o usuário perca suas informações e quer deixar seu site com cara de profissional? Então esta seção é importante para você!</p>
+
+                    <a href="">Quero Aprender!</a>
+                </section>
+            </article>
+        </section>
+    </main>
+
+    <footer id="creditos">
+
+        <section class="desenho">
+            <img src="assets/content/media/kuromi-laugh.gif" alt="">
+        </section>
+
+        <section class="creditos">
+            <article class="contatos">  
+                <nav>
+                    <h3>Para contato:</h3>
+                    <ul>
+                        <li>
+                            <strong>WhatsApp:</strong> <br>
+                            +55 (12) 99676-7910 
+                        </li>
+                        <li>
+                            <strong>Telefone</strong> <br>
+                            +55 (12) 99676-7910
+                        </li>
+                        <li>
+                            <strong>Discord:</strong> <br>
+                            phela_76
+                        </li>
+                    </ul>
+                </nav>
+            </article>
+
+            <article class="redes">
+                <h3>Minhas redes:</h3>
+                <ul>
+                    <li>
+                        <strong>Youtube:</strong> <br>
+                        @LipeLipezinho360
+                    </li>
+                    <li>
+                        <strong>Linkedin:</strong> <br>
+                        blabla
+                    </li>
+                    <li>
+                        <strong>Instagram:</strong> <br>
+                        @lipezinho.360
+                    </li>
+                </ul>
+            </article>
+
+            <article class="mais">
+                <header>
+                    <h3>IMPORTANTE</h3>
+                </header>
+
+                <p>
+                    O site ainda está sob desenvolvimento, atualmente em sua versão <strong>1.0.0</strong>, portanto, pode ser que experiencie alguns bugs durante o uso - caso encontrar-los, porfavor, me informe. 
+                </p>
+            </article>
+        </section>
+
+        <section class="copyrights">
+            <hr>
+            <p>© site oficial feito por João Felipe de Araujo</p>
+        </section>
+    </footer>
+
+    <script src="sketch.js"></script>
+</body>
 </html>
