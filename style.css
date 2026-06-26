@@ -294,6 +294,7 @@ main #sessao2 article {
   border-radius: 50px 0px 0px 0px;
   padding-left: 30px;
   transition: 0.9s ease;
+  cursor: pointer;
 }
 main #sessao2 article span {
   color: orangered;

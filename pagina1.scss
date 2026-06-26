@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background: rgb(145, 100, 180 , 1.0);
+}
+
+.topPage {
+  display: flex;
+  background: white;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+  margin-top: 40px;
+
+  #kuromiThinking {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+  }
+}
+
+/*pre {
+  background: #222;
+  color: red;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}*/
+
+footer {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  gap: 0;
+  padding-top: 20px;
+  width: 100vw;
+  background: rgb(145, 85, 165, 1.0);
+  overflow-x: auto;
+
+  user-select: text;
+
+  li, ul, p, h3 {
+    pointer-events: auto;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  article {
+    width: 300px;
+    height: 200px;
+
+    @media (width < 550px) {
+      width: 100%;
+    }
+  }
+
+  .creditos {
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    @media (width < 550px){
+      margin: 0;
+    }
+  }
+
+  .copyrights {
+    margin-top: 70px;
+    text-align: center;
+
+    hr {
+      border-color: black;
+      margin-bottom: 10px;
+      width: 90%;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .mais {
+    text-align: center;
+
+    p {
+      margin-top: -10px;
+    }
+  }
+
+  .desenho {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+
+    img {
+      width: 100px;
+      pointer-events: none;
+    }
+  }
+
+  br {
+    display: none;
+  }
+
+  @media (width < 550px) {
+    text-align: center;
+    flex-wrap: wrap;
+
+    p, li, ul {
+      font-size: 10px;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      padding-bottom: 10px;
+    }
+
+    h1, h3 {
+      font-size: 14px;
+    }
+
+    br {
+      display: block;
+    }
+
+    .mais {
+      width: 100px;
+    }
+
+    .copyrights {
+      height: 33px;
+    }
+  }
+}
